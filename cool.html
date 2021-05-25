@@ -1,78 +1,78 @@
 <html>
 	<head>
-        <style>
-  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-  </style>
-        <style type="text/css"> 
-        nowrap{
-            font-size: 90%;
-            text-align: center;
-            color: black;
-            font-family: 'Poppins', sans-serif;
-        }
-        nowrap1{
-            font-size: 130%;
-            text-align: center;
-            color: black;
-            font-family: monospace;
-            font-weight:bold;
-        }
-        /*
-        Who write comments in css?
-        Quick
-        OuO
-        */
-        </style>
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+		</style>
+		<style type="text/css"> 
+			nowrap{
+			font-size: 90%;
+			text-align: center;
+			color: black;
+			font-family: 'Poppins', sans-serif;
+			}
+			nowrap1{
+			font-size: 130%;
+			text-align: center;
+			color: black;
+			font-family: monospace;
+			font-weight:bold;
+			}
+			/*
+			Who write comments in css?
+			Quick
+			OuO
+			*/
+		</style>
 	</head>
 	<body>
 		<p>
-            <nowrap>Copyright ©2021．</nowrap>
-            <nowrap1 id="text"></nowrap1>
+			<nowrap>Copyright ©2021．</nowrap>
+			<nowrap1 id="text"></nowrap1>
 		</p>
-      <script>
-          var i = 0;
-          var t_index = 0;
-          var t_list = ["DAAI", "大安AI自主研究社", "大安機器人研究社", "Bombax Leopard", "FRC Team 8585", "山虎棉隊"];
-          var t = t_list[0];
-          var text_html = document.getElementById("text");
-          var text = "";
-          var clock = setInterval(
-              function(){
-                  //text.innerHTML = t;
-                  i++;
-                  if(i < t.length){
-                      text = t.substring(0, i);
-                  }else if(i < t.length + 20){
-                      text = t;
-                  }else if(i < t.length * 2 + 20){
-                      text = t.substring(0, t.length * 2 + 19 - i);
-                  }else{  // loop over
-                      i = 0;
-                      t_index++;
-                      if(t_index==t_list.length)
-                          t_index = 0;
-                      t = t_list[t_index];
-                  }
-                  update();
-              }
-          , 100);
-
-          var flick = true;
-          var dash = "";
-          var clock_dash = setInterval(
-              function(){
-                  flick = !flick;
-                  if(flick)
-                      dash = "_";
-                  else
-                      dash = "";
-                  update();
-              }
-          , 600)
-
-          function update(){
-              text_html.innerHTML = text + dash;
-          }
-      </script>
+		<script>
+			var i = 0;
+			var t_index = 0;
+			var t_list = ["DAAI", "大安AI自主研究社", "大安機器人研究社", "Bombax Leopard", "FRC Team 8585", "山虎棉隊"];
+			var t = t_list[0];
+			var text_html = document.getElementById("text");
+			var text = "";
+			var clock = setInterval(
+			    function(){
+			        //text.innerHTML = t;
+			        i++;
+			        if(i < t.length){
+			            text = t.substring(0, i);
+			        }else if(i < t.length + 20){
+			            text = t;
+			        }else if(i < t.length * 2 + 20){
+			            text = t.substring(0, t.length * 2 + 19 - i);
+			        }else{  // loop over
+			            i = 0;
+			            t_index++;
+			            if(t_index==t_list.length)
+			                t_index = 0;
+			            t = t_list[t_index];
+			        }
+			        update();
+			    }
+			, 100);
+			
+			var flick = true;
+			var dash = "";
+			var clock_dash = setInterval(
+			    function(){
+			        flick = !flick;
+			        if(flick)
+			            dash = "_";
+			        else
+			            dash = "";
+			        update();
+			    }
+			, 600)
+			
+			function update(){
+			    text_html.innerHTML = text + dash;
+			}
+		</script>
 	</body>
 </html>
