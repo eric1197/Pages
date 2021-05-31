@@ -32,11 +32,15 @@ AI2		5/27	四	09:20-12:10	https://meet.google.com/fjs-jquz-apu
 數學		5/28	五	10:20-12:10	https://meet.google.com/rzn-ntqy-ynu
 電子學		5/28	五	13:10-15:00	https://meet.google.com/cev-accb-xex
 國文		5/28	五	15:10-16:00	https://meet.google.com/ohg-hjgp-ptm
-
 微處理機	5/31 	一	08:20-09:10	https://meet.google.com/oip-qubt-pef
 單晶片		5/31 	一	09:20-16:00	https://meet.google.com/vew-umyx-xvn
 電子學實習A	5/31	一	10:20-12:10	https://meet.google.com/wka-bgbj-oxi
+
+英文		6/1	二	08:20-09:10	https://meet.google.com/hfv-ysyf-gok
+數學		6/1	二	09:20-10:10	https://meet.google.com/rzn-ntqy-ynu
 健康		6/1	二	10:10-12:10	https://meet.google.com/fxz-himf-wuw
+國文		6/1	二	15:10-16:00	https://meet.google.com/ohg-hjgp-ptm
+
 電子學		6/2	三	13:10-14:00	https://meet.google.com/cev-accb-xex
 微處理機	6/2 	三	14:10-16:00	https://meet.google.com/fpg-bfud-zqn
 班會		6/3 	四	08:20-09:10	https://meet.google.com/vzs-efyz-hdk
