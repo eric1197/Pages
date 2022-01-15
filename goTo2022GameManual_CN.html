@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<style type="text/css">
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+</style>
+
+<div id="container">
+<button onclick="goTo2022GameManual_CN()">中文版比賽手冊</button>
+</div>
+
+<script>
+var msg = "風險警告:\n\n2022賽季FRC比賽手冊的中文版是根據比賽手冊的早期版本翻譯的。 FIRST對中文版翻譯的精準性沒有做過檢查。比賽手冊正式公佈後，FIRST每週都會依據Team Update的更新內容對比賽手冊作修改，因此最新版 FIRST官方提供的英文版比賽手冊 為最權威的版本。\n(節錄自FIRST官網)\n\n是否繼續前往？"
+var url = "https://firstfrc.blob.core.windows.net/frc2022/Manual/TranslatedManuals/2022GameManual_CN.pdf"
+
+function goTo2022GameManual_CN() {
+  if (confirm(msg)) window.location.href=url;
+}
+</script>
+
+</body>
+</html>
